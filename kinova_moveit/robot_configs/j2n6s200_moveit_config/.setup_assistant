@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: kinova_description
+    relative_path: urdf/j2n6s200_standalone.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/j2n6s200.srdf
+  CONFIG:
+    author_name: hangliu
+    author_email: prog_liu_study@163.com
+    generated_timestamp: 1587883224
